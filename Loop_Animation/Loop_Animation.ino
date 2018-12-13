@@ -13,7 +13,7 @@ LedControl lc = LedControl(7, 5, 6, 1);
 
 void setup() {
   lc.shutdown(0, false); // Wake up MAX7219
-  lc.setIntensity(0, 4); // Brightness
+  lc.setIntensity(0, 4); // Set brightness
   lc.clearDisplay(0);
 }
 
