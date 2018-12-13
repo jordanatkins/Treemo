@@ -37,3 +37,10 @@ They'll look like this:
 * `if (moisture >= 300)` - Very Happy
 
 Change the values to the values you got from your readings. If you break something, you can always download everything from this repo and start fresh.
+
+# Contributing
+
+We'd love to see what you have to add! We happily accept contributions, especially through pull requests on GitHub.
+
+Please read CONTRIBUTING.md for important guidelines to follow.
+
