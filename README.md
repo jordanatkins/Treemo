@@ -33,7 +33,7 @@ You'll need to adjust the values in the TreemoOS Arduino sketch to suit your own
 They'll look like this:
 
 * `if (moisture <= 50)` - Sad
-* `if (moisture >= 50 && sensr <= 300)` - Happy
+* `if (moisture >= 50 && moisture <= 300)` - Happy
 * `if (moisture >= 300)` - Very Happy
 
 Change the values to the values you got from your readings. If you break something, you can always download everything from this repo and start fresh.
