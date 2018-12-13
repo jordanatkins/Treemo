@@ -22,7 +22,7 @@ void loop() {
   if (true) {
 
     byte heartBig[8] = {B00000000, B00100100, B01111110, B01111110, B00111100, B00011000, B00000000, B00000000};
-    
+
     lc.setRow(0, 0, heartBig[0]);
     lc.setRow(0, 1, heartBig[1]);
     lc.setRow(0, 2, heartBig[2]);
@@ -48,5 +48,4 @@ void loop() {
     delay(400);
 
   }
-
 }
