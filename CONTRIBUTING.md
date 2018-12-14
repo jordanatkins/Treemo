@@ -22,7 +22,7 @@ For more details, place two new lines after the summary line and write away!
 
 * **Test your code.** 
 
-We're not interested in broken code, for the obvious reasons.
+We're not interested in broken code, for obvious reasons.
 
 * **Make sure everything is right before you send a pull request.** 
 
