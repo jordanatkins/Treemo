@@ -13,8 +13,8 @@ Treemo is made up of a few small components that are pretty commonly found and v
 
 To build your own Treemo you will need:
 
-* Arduino Nano (code will also work with other Arduino boards but you'll need to make some modifications to the casing to fit, or design your own!)
-* Soil Moisture Sensor
+* NodeMCU (code will also work with Arduino boards but you'll need to make some modifications to code and the casing to fit, or design your own!)
+* Soil Moisture Sensor (We used a YL-69 but have tested with Funduino sensors too)
 * LED matrix with MAX7219 controller
 * Jumper Cables
 * Some time to spare
@@ -28,13 +28,13 @@ To calibrate your Treemo, you'll need to connect the Arduino to your computer an
 
 Get three different plants/soil samples. One with a good amount of water, one that is OK and one that needs to be watered. Test Treemo in the different samples and take note of the results from Serial Monitor.
 
-You'll need to adjust the values in the TreemoOS Arduino sketch to suit your own situation. There is three diffrent if statments that control this. 
+You'll need to adjust the values in the TreemoOS Arduino sketch to suit your own situation. There are three if statments that control this. 
 
 They'll look like this:
 
-* `if (moisture <= 50)` - Sad
-* `if (moisture >= 50 && moisture <= 300)` - Happy
-* `if (moisture >= 300)` - Very Happy
+* `if (moisture >= 1000)` - Sad
+* `if (moisture >= 500 && moisture <= 700)` - Happy
+* `if (moisture <= 200)` - Very Happy
 
 Change the values to the values you got from your readings. If you break something, you can always download everything from this repo and start fresh.
 
