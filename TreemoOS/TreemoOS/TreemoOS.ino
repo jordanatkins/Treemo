@@ -60,7 +60,7 @@ void loop() {
     delay(1400);
 
   }
-  if (moisture >= 500 && moisture <= 700 ) { // these values will need tweaking depending on the type of plant and the sensor you use.
+  if (moisture >= 500 && moisture <= 700) { // these values will need tweaking depending on the type of plant and the sensor you use.
 
     byte l[8] = {B00000100, B00000010, B01000100, B10000000, B10000000, B01000100, B00000010, B00000100}; // happy
 
